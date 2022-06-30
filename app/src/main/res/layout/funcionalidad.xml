@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/funcionalidad"
+    app:clickToClose="true">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_sol"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Leido"
+            android:text="Leída"
+            android:textColor="#ffff"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="#EC48D3"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Swipe Layout"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        >
+
+    </TextView>
+
+
+</com.daimajia.swipe.SwipeLayout>
